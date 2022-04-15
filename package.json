@@ -53,6 +53,12 @@
         }
     ],
     "devDependencies": {
+        "@babel/preset-env": "^7.16.11",
+        "@babel/preset-react": "^7.16.7",
+        "@types/react-test-renderer": "^18.0.0",
+        "babel-jest": "^27.5.1",
+        "jest": "^25.5.4",
+        "react-test-renderer": "^18.0.0",
         "@rollup/plugin-image": "^2.1.1",
         "@size-limit/preset-small-lib": "^7.0.8",
         "@types/react": "^18.0.5",
@@ -74,12 +80,7 @@
         "ferdeolazabal"
     ],
     "dependencies": {
-        "@babel/preset-env": "^7.16.11",
-        "@babel/preset-react": "^7.16.7",
-        "@types/react-test-renderer": "^18.0.0",
-        "babel-jest": "^27.5.1",
-        "jest": "^25.5.4",
-        "react-test-renderer": "^18.0.0"
+        
     },
     "jest": {
         "moduleNameMapper": {
