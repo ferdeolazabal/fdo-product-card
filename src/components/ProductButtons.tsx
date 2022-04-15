@@ -34,4 +34,3 @@ export const ProductButtons = ( { className, style }: Props ) => {
         </div>
     );
 };
-    
